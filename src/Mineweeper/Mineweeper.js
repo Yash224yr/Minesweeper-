@@ -28,9 +28,12 @@ function Mineweeper() {
 
 
     function changecolor(index) {
-        if (!bomb.includes(index)) {
+        if (!bomb.includes(index) ) {
             setcolor([...color, index])
-            setScore(score + 1)
+                if( !color.includes(index)){
+
+                    setScore(score + 1)
+                }
         }
         else {
             setCheck(!check)
