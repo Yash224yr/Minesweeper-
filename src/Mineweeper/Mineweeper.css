@@ -63,9 +63,9 @@
     height: 34px;
     width: 88px;
     font-size: 1rem;
-    background-color: blue;
-    color: white;
-    border: 3px solid black;
+    background-color: black;
+    color: aqua;
+    border: 3px solid white;
     cursor: pointer;
     transition: 0.5s all;
 }
@@ -87,8 +87,8 @@ button:hover{
 }
 
 .box{
-    height: calc(6vw + 1px);
-    width:  calc(6vw + 1px);
+    height: 90px;
+    width:  90px;
     border: 1px solid black;
     margin: 5px;
     cursor: pointer;
@@ -126,6 +126,13 @@ img{
     .overlay h1{
         font-size: calc(1vw + 3rem);
     }
+    .box{
+        height: 55px;
+        width: 55px;
+    }
+    .container{
+        width: 100%;
+    }
 }
 
 @media all and (max-width:400px){
@@ -137,5 +144,9 @@ img{
     }
     .overlay h1{
         font-size: calc(1vw + 2rem);
+    }
+    .box{
+        height: 35px;
+        width: 35px;
     }
 }
