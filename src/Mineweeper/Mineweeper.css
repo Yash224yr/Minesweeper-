@@ -84,7 +84,12 @@ button:hover{
     border: 1px solid black;
     margin: 5px;
     cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.5s all;
 }
+.box:hover{
+    transform: scale(1.1);
+}   
 
 img{
     height: 100%;

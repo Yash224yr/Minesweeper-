@@ -106,12 +106,12 @@ function Mineweeper() {
 
 
                         return (
-                            <div className='box' key={index}
-                                style={boxStyle}
-                                onClick={() => { changecolor(index) }}>
+                                <div className='box' key={index}
+                                    style={boxStyle}
+                                    onClick={() => { changecolor(index) }}>
 
-                                {bomb.includes(index) && !check ? <img src={bombImage} alt="Description of the image" /> : ""}
-                            </div>
+                                    {bomb.includes(index) && !check ? <img src={bombImage} alt="Description of the image" /> : ""}
+                                </div>
 
                         )
                     })
