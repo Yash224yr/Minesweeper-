@@ -14,7 +14,7 @@ function Mineweeper() {
     let array = []
 
     function getbox() {
-        for (let i = 0; i <= 81; i++) {
+        for (let i = 0; i <= 80; i++) {
             array.push(i)
         }
     }
@@ -109,8 +109,7 @@ function Mineweeper() {
                                 <div className='box' key={index}
                                     style={boxStyle}
                                     onClick={() => { changecolor(index) }}>
-
-                                    {bomb.includes(index) && !check ? <img src={bombImage} alt="Description of the image" /> : ""}
+                                    {bomb.includes(index) && !check ? <img src={bombImage} alt="" /> : ""}
                                 </div>
 
                         )
