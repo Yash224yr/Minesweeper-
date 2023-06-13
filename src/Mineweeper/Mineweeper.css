@@ -47,6 +47,7 @@
     align-items: center;
     flex-direction: column;
     padding-top: 6rem;
+    z-index: 5;
 }
 
 .overlay h1{
