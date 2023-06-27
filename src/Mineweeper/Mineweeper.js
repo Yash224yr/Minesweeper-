@@ -79,7 +79,7 @@ function Mineweeper() {
     return (
         <div className='wrapper'>
             <div className='header'>
-                <h1>Mineweeper Game</h1>
+                <h1>minesweeper Game</h1>
                 <div className='detail'>
                     <h2>Score : {score}</h2>
                     <button onClick={() => { reset() }}>Reset</button>
